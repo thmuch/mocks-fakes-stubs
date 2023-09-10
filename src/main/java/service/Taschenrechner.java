@@ -4,10 +4,10 @@ import jakarta.inject.Inject;
 
 public class Taschenrechner {
 
-    private final RechenengineMitDatenbankanbindungUndKI engine;
+    private final Rechenengine engine;
 
     @Inject
-    public Taschenrechner(RechenengineMitDatenbankanbindungUndKI engine) {
+    public Taschenrechner(Rechenengine engine) {
         this.engine = engine;
     }
 

@@ -13,7 +13,7 @@ import static org.mockito.Mockito.when;
 class TaschenrechnerStubTest {
 
     @Mock
-    RechenengineMitDatenbankanbindungUndKI engine;
+    Rechenengine engine;
 
     @Test
     void berechneSchwierigeFormel_liefert_Antwort_auf_alles() {

@@ -6,15 +6,17 @@ import java.util.concurrent.atomic.AtomicLong;
 /**
  * Beispiel für eine komplexe, langsame Implementierung. NICHT NACHMACHEN!
  */
-public class RechenengineMitDatenbankanbindungUndKI {
+public class RechenengineMitDatenbankanbindungUndKI implements Rechenengine {
 
     private final AtomicLong zwischenspeicher = new AtomicLong();
 
-    public RechenengineMitDatenbankanbindungUndKI initialisiereMit(int wert) {
+    @Override
+    public Rechenengine initialisiereMit(int wert) {
         zwischenspeicher.set(wert);
         return this;
     }
 
+    @Override
     public long multipliziereMit(int faktor) {
         zwischenspeicher.getAndUpdate(alterWert -> alterWert * faktor);
 
@@ -27,6 +29,7 @@ public class RechenengineMitDatenbankanbindungUndKI {
         return zwischenspeicher.get();
     }
 
+    @Override
     public long addiere(int summand) {
         zwischenspeicher.getAndAdd(summand);
 
