@@ -16,7 +16,7 @@ public class Taschenrechner {
 
         engine.multipliziereMit(3);
 
-        long ergebnis = engine.addiere(36);
+        long ergebnis = engine.multipliziereMit(7);
 
         return "Antwort: %d".formatted(ergebnis);
     }
