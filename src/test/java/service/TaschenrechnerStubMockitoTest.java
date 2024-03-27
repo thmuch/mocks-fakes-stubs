@@ -10,7 +10,7 @@ import static org.mockito.ArgumentMatchers.anyInt;
 import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
-class TaschenrechnerStubTest {
+class TaschenrechnerStubMockitoTest {
 
     @Mock
     Rechenengine engine;
