@@ -27,6 +27,7 @@ Die (Refactoring-)Schritte kann man in der Git-Historie sehen.
 - https://testing.googleblog.com/2013/07/testing-on-toilet-know-your-test-doubles.html
 - https://martinfowler.com/articles/practical-test-pyramid.html
 - https://hynek.me/articles/what-to-mock-in-5-mins/
+- https://blog.cleancoder.com/uncle-bob/2014/05/14/TheLittleMocker.html
 
 ### Nullabes
 
