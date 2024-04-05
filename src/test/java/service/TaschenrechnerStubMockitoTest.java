@@ -22,7 +22,7 @@ class TaschenrechnerStubMockitoTest {
 
         Taschenrechner taschenrechner = new Taschenrechner(engine);
 
-        when(engine.addiere(anyInt())).thenReturn(42L); // Stubbing
+        when(engine.multipliziereMit(anyInt())).thenReturn(42L); // Stubbing
 
         // When
 

@@ -22,7 +22,7 @@ class TaschenrechnerMockTest {
 
         Taschenrechner taschenrechner = new Taschenrechner(engine);
 
-        when(engine.addiere(anyInt())).thenReturn(42L); // Stubbing...
+        when(engine.multipliziereMit(anyInt())).thenReturn(42L); // Stubbing...
 
         // When
 
@@ -32,7 +32,7 @@ class TaschenrechnerMockTest {
 
         verify(engine, times(1)).initialisiereMit(2); // Mock-Verifications
         verify(engine).multipliziereMit(3);
-        verify(engine).addiere(36);
+        verify(engine).multipliziereMit(7);
         verifyNoMoreInteractions(engine);
 
         assertThat(ergebnis).isEqualTo("Antwort: 42"); // doch Stubbing nötig, s.o.

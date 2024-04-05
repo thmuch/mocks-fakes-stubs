@@ -9,11 +9,11 @@ public class RechenengineStub implements Rechenengine {
 
     @Override
     public long multipliziereMit(int faktor) {
-        return 0;
+        return 42L;
     }
 
     @Override
     public long addiere(int summand) {
-        return 42L;
+        return 0;
     }
 }
