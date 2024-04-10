@@ -10,6 +10,7 @@ Die (Refactoring-)Schritte kann man in der Git-Historie sehen.
 
 ## Vorträge & Folien
 
+- [JavaLand 2024](https://www.javaland.eu), 09.04.2024 ([PDF](https://thomas-much.de/presentations/MocksFakesStubs-JavaLand-2024.pdf))
 - [code.talks 2023](https://codetalks.de/program#talk-1824?event=8), 14.09.2023 ([PDF](https://thomas-much.de/presentations/MocksFakesStubs-codetalks-2023.pdf), [Video](https://www.youtube.com/watch?v=Ah_GQnhctUk))
 - [Java Forum Nord 2023](https://javaforumnord.de/2023/programm/), 12.09.2023 ([PDF](https://thomas-much.de/presentations/MocksFakesStubs-JFN-2023.pdf))
 
